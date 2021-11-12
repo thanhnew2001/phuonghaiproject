@@ -9,6 +9,10 @@ export class DatasensorsEntity{
 //   @Column('text')
 //   date: Date;
 
+  @Column({ type: 'date' })
+  ReceivedDate: string;
+
+
   @Column() 
   Value: number;
  

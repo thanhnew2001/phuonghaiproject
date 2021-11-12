@@ -12,7 +12,7 @@ import { DatasensorsModule } from './datasensors/datasensors.module';
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: 'localhost',
-      port: 3308,
+      port: 3309,
       username: 'phuonghai',
       password: 'phuonghai',
       database: 'phuonghai',

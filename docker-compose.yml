@@ -11,4 +11,4 @@ services:
             MYSQL_USER: phuonghai
             MYSQL_PASSWORD: phuonghai
         ports: 
-            - 3308:3306
+            - 3309:3306
