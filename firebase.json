@@ -1,0 +1,87 @@
+{
+    "Greenlab" : [ {
+      "Description" : "CM3 Lab Control with LCD 7inch touch screen",
+      "Devices" : [ {
+        "DateSync" : "2021-10-05T07:46:06",
+        "Description" : "Indoor air quality monitoring",
+        "FriendlyName" : "Indoor Air Quality",
+        "IsActive" : true,
+        "Model" : "GLAN05",
+        "Sensors" : [ {
+          "Key" : "IAQ",
+          "Measure" : "",
+          "Status" : "Poor",
+          "Value" : 36
+        }, {
+          "Key" : "PM25",
+          "Measure" : "ug/m3",
+          "Status" : "Excellent",
+          "Value" : 22
+        }, {
+          "Key" : "CO2",
+          "Measure" : "ppm",
+          "Status" : "Excellent",
+          "Value" : 442
+        }, {
+          "Key" : "TVOC",
+          "Measure" : "ppb",
+          "Status" : "Excellent",
+          "Value" : 27
+        }, {
+          "Key" : "Temperature",
+          "Measure" : "°C",
+          "Status" : "Poor",
+          "Value" : 29.4
+        }, {
+          "Key" : "Humidity",
+          "Measure" : "%",
+          "Status" : "Good",
+          "Value" : 70
+        } ],
+        "SerialNumber" : "AN21050501",
+        "Type" : "AirNode"
+      }, {
+        "Buttons" : [ {
+          "Key" : "Lamp",
+          "Status" : "Off",
+          "Timer" : {
+            "Counter" : 0,
+            "IsActive" : false,
+            "Status" : "Off"
+          }
+        }, {
+          "Key" : "Fan",
+          "Status" : "Off",
+          "Timer" : {
+            "Counter" : 0,
+            "IsActive" : false,
+            "Status" : "Off"
+          }
+        } ],
+        "DateSync" : "2021-10-05T07:46:06",
+        "Description" : "FumeHood 2.5m",
+        "FriendlyName" : "FumeHood",
+        "IsActive" : true,
+        "Model" : "GLFMBL2.5",
+        "Sensors" : [ {
+          "Key" : "Temperature",
+          "Measure" : "°C",
+          "Status" : "Good",
+          "Value" : 30
+        }, {
+          "Key" : "Humidity",
+          "Measure" : "%",
+          "Status" : "Bad",
+          "Value" : 76
+        } ],
+        "SerialNumber" : "AN21050501",
+        "Type" : "FumeHood"
+      } ],
+      "FriendlyName" : "ROOM 1",
+      "IsActive" : true,
+      "Model" : "CM3LC10",
+      "SerialNumber" : "LC21050501",
+      "Type" : "LabControl"
+    } ]
+  }
+  
