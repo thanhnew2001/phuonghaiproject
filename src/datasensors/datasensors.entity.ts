@@ -19,6 +19,13 @@ export class DatasensorsEntity{
   @Column()
   Sensors_id: number;
 
+  @Column()
+  DeviceSerialNumber: string
+
+  @Column()
+  SensorKey: string
+
+
   
 }
 
